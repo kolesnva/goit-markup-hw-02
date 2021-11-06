@@ -1,0 +1,195 @@
+body {font-family: roboto;}
+
+:root {
+    --main-header-color: #212121;
+    --main-contacts-color: #757575;
+    --main-text-color: #757575;
+    --main-hover-color: #2196F3;
+    --main-title-color: #212121;
+}
+/* Links and lists styles reset */
+.link {
+    text-decoration: none;
+    color: var(--main-contacts-color);
+}
+.logo {
+    text-decoration: none;
+}
+.link:hover{
+    color: var(--main-hover-color);
+}
+.link:focus{
+    color: var(--main-hover-color);
+}
+.list {
+    list-style: none;
+}
+/* Logo */
+.logo-pt1 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-pt2 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000
+}
+/* Navigation*/
+.list{
+    list-style: none;
+}
+.nav-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-header-color);
+}
+/* Contacts*/
+.contacts-list {
+    list-style: none;
+}
+.contacts-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
+    color: var(--main-contacts-color);
+}
+/* Hero section*/
+.hero-section {
+    background-color: #2F303A;
+}
+.hero-section-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hero-section-btn {
+    background-color: var(--main-hover-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* Features section */
+.features-title {
+    visibility: hidden;
+}
+.features-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+}
+.features-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+/* Our work section */
+.our-work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+/* Our team section */
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);   
+}
+.our-team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+.our-team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+.footer {
+    background-color: #2F303A;
+}
+
+.contacts-item.adress{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+/* --------------PORTFOLIO-------------- */
+.main-title {
+    visibility: hidden;
+}
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+.filter-btn:hover{
+    color: var(--main-hover-color);
+}
+.filter-btn:active{
+    color: var(--main-hover-color);
+}
+.filter-btn:focus{
+    color: var(--main-hover-color);
+}
+/* Our projects section */
+.our-projects-title {
+    visibility: hidden;
+}
+.projects-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);
+}
+.projects-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
