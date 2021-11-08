@@ -214,11 +214,10 @@ body {font-family: roboto, sans-serif;}
 .main-title {
     visibility: hidden;
 }
-.main-content {
-    background-color: var(--third-background-color);
-}
 /* PROJECTS-LIST */
 .filter-btn {
+    border: none;
+    border-radius: 4px;
     font-family: Roboto,sans-serif;
     font-style: normal;
     font-weight: 500;
