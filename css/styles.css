@@ -115,6 +115,7 @@ body {font-family: roboto, sans-serif;}
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--main-white-color);
+    cursor: pointer;
 }
 .hero-section-btn:hover,
 .hero-section-btn:active,
@@ -226,6 +227,7 @@ body {font-family: roboto, sans-serif;}
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-black-color);
+    cursor: pointer;
 }
 .filter-btn:focus,
 .filter-btn:hover,
